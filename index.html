@@ -6,7 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        font-family: serif;
+        animation-name: jump;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes jump {
+        0% {transform: translateY(-20px);}
+        50% {transform: translateY(20px);}
+        100% {transform: translateY(-20px);}
+    }
+</style>
 <body>
-    <marquee behavior="" direction="right">Hello</marquee>
+    <h1>Hi, Anisha</h1>
 </body>
 </html>
