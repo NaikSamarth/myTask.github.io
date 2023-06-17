@@ -14,13 +14,6 @@ section#banner{
     background-position: center;
     height: 75vh;
 }
-.banner-overlay-img {
-    min-height: -webkit-fill-available;
-    background-image: url(image/profile_pic.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom right;
-}
 .banner-inside::before {
     content: "";
     height: 75vh;
