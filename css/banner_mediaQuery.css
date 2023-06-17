@@ -1,0 +1,15 @@
+@media screen and (max-width:640px){
+    .banner-overlay-img {
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-text {
+        width: 100%;
+    }
+    h1.banner-text-heading {
+        font-size: 1.5em;
+    }
+    h1.banner-sub-heading {
+        font-size: 2em;
+    }
+}
