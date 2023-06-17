@@ -1,0 +1,53 @@
+/* font family for banner heading */
+@import url('https://fonts.googleapis.com/css?family=Poiret One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+/* font family for heading */
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue&display=swap');
+/* font family for sub heading */
+@import url('https://fonts.googleapis.com/css?family=Poiret One&display=swap');
+/* font family for text */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+section#banner{
+    background-color: #000;
+    background-size: contain;
+    background-position: center;
+    height: 75vh;
+}
+.banner-overlay-img {
+    min-height: -webkit-fill-available;
+    background-image: url(/profile_pic.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+}
+.banner-inside::before {
+    content: "";
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+}
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 75vh;
+    width: 50%;
+}
+h1.banner-text-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    opacity: 0.9;
+    font-family: 'Poiret One', sans-serif;
+    margin: 2px;
+}
+h1.banner-sub-heading {
+    font-size: 2.5em;
+    opacity: 0.9;
+    font-family: 'Courgette', sans-serif;
+    margin: 2px;
+}
