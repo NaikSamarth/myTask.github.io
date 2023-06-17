@@ -16,7 +16,7 @@ section#banner{
 }
 .banner-overlay-img {
     min-height: -webkit-fill-available;
-    background-image: url(profile_pic.png);
+    background-image: url(image/profile_pic.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom right;
